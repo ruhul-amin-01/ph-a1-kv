@@ -1,5 +1,126 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    background-color: #f3f3f3;
+    box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 1600px;
+    border: 1px solid #3d3d3d;
+}
+
+.container{
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    width: 445px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: #30B868;
+    color: white;
+}
+
+.hero-section{
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("../images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+.hero-content h6{
+    font-size: 20px;
+    color: #30B868;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 51px;
+    display: inline-block;
+    padding: 11px;
+}
+
+.hero-content h1, .hero-content h2{
+    font-size: 72px;
+    color: #fff;
+    font-weight: 700;
+    padding: 11px;
+}
+
+.hero-content h2{
+    color: #30B868;
+}
+
+.hero-content p{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.cta-btn{
+    background-color: #30B868;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cta-btn:hover{
+    color: #30B868;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+.cta-btn-2{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-btn-2:hover{
+    background-color: #30B868;
+    color: white;
+}
+
+
+
+
+
+
+
+
