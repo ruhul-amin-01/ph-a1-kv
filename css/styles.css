@@ -109,7 +109,7 @@ nav ul li a:hover{
     margin: 20px 0;
     border-radius: 51px;
     display: inline-block;
-    padding: 11px;
+    padding: 15px 40px;
 }
 
 .hero_content h1, .hero_content h2{
@@ -127,6 +127,14 @@ nav ul li a:hover{
     font-size: 20px;
     color: #ffffff;
     padding: 10px 0;
+}
+
+.hero_cta_container{
+    padding: 50px;
+}
+
+.hero_cta_container a{
+    margin: 50px;
 }
 
 .card img{
