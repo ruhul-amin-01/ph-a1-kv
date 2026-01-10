@@ -292,11 +292,11 @@ nav ul li a:hover{
 /*=================================*/
 footer{
     background-color: #001931;
-    padding: 100px 0;
+    padding: 100px 0 30px 0;
 }
 
 .footer_nav{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -337,9 +337,15 @@ footer{
     padding: 5px;
 }
 
+hr{
+    border: none;
+    border-top: 1px solid #6a6969;
+    margin: 30px 0 20px 0;
+    display: block;
+}
 .copyrights{
     font-size: 16px;
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
